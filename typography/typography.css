@@ -1,0 +1,114 @@
+﻿
+
+body {
+    font-family: 'Open Sans', Roboto, Arial, sans-serif;
+    font-size: 100%;
+    /*font-size: 112.5%;*/
+    color: #111;
+    background-color: white;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+    color: #333;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+h1, h2, h3 {
+    font-size: 160%;
+}
+
+h4, h5, h6 {
+    font-size: 140%;
+}
+
+p {
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+textarea {
+    max-width: 100%;
+    padding: 5px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+img {
+    /*max-width: 100%;*/
+}
+
+ul {
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+li {
+    line-height: 1.4em;
+    margin-bottom: 0.3em;
+}
+
+/*
+dt {
+    margin-left: 10px;
+    font-weight: bold;
+ }
+
+dd {
+    margin-left:  5px;
+    margin-top: 5px;
+        margin-bottom: 15px;
+
+}*/
+
+.head-label {
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Small - 640px or less 4" to 6" Phones, 320x569, 360x640, 480x854 */
+@media only screen and (max-width: 640px) {
+    body {
+        font-size: 120%;
+    }
+
+    h1, h2, h3 {
+        font-size: 140%;
+    }
+
+    h4, h5, h6 {
+        font-size: 120%;
+    }
+}
+
+
+/* Medium - 641px to 1007px	7" to 12" Tablets 960x540 */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+    body {
+        font-size: 120%;
+    }
+
+    h1, h2, h3 {
+        font-size: 140%;
+    }
+
+    h4, h5, h6 {
+        font-size: 120%;
+    }
+}
+
+
+/* Large - 1008px or greater, 13" and larger, PCs, laptops 1024x640, 1366x768, 1920x1080 */
+@media only screen and (min-width: 1008px) {
+    body {
+    	text-rendering: optimizeLegibility;
+
+    }
+
+}
+

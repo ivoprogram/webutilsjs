@@ -1,0 +1,97 @@
+﻿
+
+.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .menu li {
+        line-height: 100%;
+        margin-bottom: 0px;
+    }
+
+
+    .menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+
+    .menu .icon {
+        display: none;
+    }
+
+
+    .menu.horizontal li {
+        float: left;
+    }
+
+
+    .menu.horizontal:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+.clear {
+    clear: both;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+
+
+
+/* Small - 640px or less 4" to 6" Phones, 320x569, 360x640, 480x854 */
+@media only screen and (max-width: 640px) {
+
+    .menu.responsive {
+        width: 100%;
+    }
+
+        .menu.responsive > li {
+            display: none;
+            float: none;
+        }
+
+            .menu.responsive > li.show {
+                display: block;
+            }
+
+        .menu.responsive .icon {
+            display: block;
+        }
+}
+
+
+/* Medium - 641px to 1007px	7" to 12" Tablets 960x540 */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+}
+
+
+/* Large - 1008px or greater, 13" and larger, PCs, laptops 1024x640, 1366x768, 1920x1080 */
+@media only screen and (min-width: 1008px) {
+}
+
+
+
+/* Theme ----------------------------------------------------- */
+
+.menu {
+    background-color: #E0E0E0;
+}
+
+    .menu a {
+        color: black;
+    }
+
+    .menu li a:hover, .menu li.active a {
+        /*color: #616161;*/
+        background-color: #F5F5F5;
+    }

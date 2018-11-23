@@ -1,0 +1,93 @@
+﻿
+/* CSS Responsive Grid 12 columns
+    ------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+.column1 {
+    width: 8.33%;
+}
+
+.column2 {
+    width: 16.66%;
+}
+
+.column3 {
+    width: 25%;
+}
+
+.column4 {
+    width: 33.33%;
+}
+
+.column5 {
+    width: 41.66%;
+}
+
+.column6 {
+    width: 50%;
+}
+
+.column7 {
+    width: 58.33%;
+}
+
+.column8 {
+    width: 66.66%;
+}
+
+.column9 {
+    width: 75%;
+}
+
+.column10 {
+    width: 83.33%;
+}
+
+.column11 {
+    width: 91.66%;
+}
+
+.column12 {
+    width: 100%;
+}
+
+
+.row > [class*="column"] {
+    float: left;
+}
+
+.row > [class*="column"] img {
+    max-width: 100%;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Small - 640px or less 4" to 6" Phones, 320x569, 360x640, 480x854 */
+@media only screen and (max-width: 640px) {
+    .row.responsive > [class*="column"] {
+        width: 100%;
+        float:none;
+    }
+}
+
+/* Medium - 641px to 1007px	7" to 12" Tablets 960x540 */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+
+}
+
+/* Large - 1008px or greater, 13" and larger, PCs, laptops 1024x640, 1366x768, 1920x1080 */
+@media only screen and (min-width: 1008px) {
+
+}

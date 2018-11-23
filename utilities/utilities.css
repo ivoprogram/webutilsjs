@@ -1,0 +1,73 @@
+﻿
+
+/* CSS Utilities ----------------------------------------------------- */
+
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-clear {
+    clear: both;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: initial;
+}
+
+.shadow-top {
+    -webkit-box-shadow: 5px 0px 3px 2px #bbb;
+    -moz-box-shadow: 5px 0px 3px 2px #bbb;
+    box-shadow: 5px 0px 3px 2px #bbb;
+    position: relative;
+    z-index: 9;
+}
+
+
+.shadow-bottom {
+    -webkit-box-shadow: 0 5px 3px -3px #bbb;
+    -moz-box-shadow: 0 5px 3px -3px #bbb;
+    box-shadow: 0 5px 3px -3px #bbb;
+    position: relative;
+    z-index: 9;
+}
+
+
+.note-gray200 {
+    background-color: #EEEEEE;
+    border-left: solid 5px #E0E0E0;
+    padding: 5px;
+    padding-left:10px;
+}
+
+
+/* Html5 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+

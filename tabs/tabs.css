@@ -1,0 +1,76 @@
+﻿
+
+.tabs > ul {
+    list-style-type: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabs > ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+
+.tabs.horizontal > ul li {
+    float: left;
+}
+
+
+.tabs.horizontal > ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.tabs > div {
+    display: none;
+}
+
+
+    .tabs > div.active {
+        display: block;
+        background-color: #F5F5F5;
+    }
+
+
+
+/* Media ----------------------------------------------------- */
+@media only screen and (max-width: 640px) {
+
+    .tabs.responsive > ul li {
+        float: none;
+    }
+}
+
+
+
+/* Theme ----------------------------------------------------- */
+
+.tabs > ul li {
+    background-color: #E0E0E0;
+    /*border:solid 1px #E0E0E0;*/
+    /*width:50%;*/
+}
+
+    .tabs > ul li a {
+        padding: 5px;
+        color: black;
+        /*font-weight:bold;*/
+        /*border: solid 1px gainsboro;*/
+    }
+
+    .tabs > ul li a:hover, .tabs > ul li.active a {
+        background-color: #F5F5F5;
+        color: black;
+    }
+
+.tabs > div {
+    padding: 5px;
+}
+
+
+
+

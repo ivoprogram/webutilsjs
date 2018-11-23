@@ -1,0 +1,35 @@
+﻿
+
+.accordion {
+}
+
+    .accordion > a {
+        display: block;
+        text-decoration: none;
+        padding: 5px;
+        margin-bottom: 1px;
+    }
+
+
+    .accordion > div {
+        display: none;
+        padding: 5px;
+    }
+
+        .accordion > div.active {
+            display: block;
+        }
+
+
+
+/* Theme ----------------------------------------------------- */
+
+.accordion {
+    /*border: solid 1px gainsboro;*/
+}
+
+
+    .accordion > a {
+        background-color: gainsboro;
+        color: black;
+    }

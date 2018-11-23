@@ -1,0 +1,55 @@
+﻿
+
+.slideshow {
+    overflow: hidden;
+}
+
+    .slideshow .slide {
+        display: none;
+        position: relative;
+    }
+
+        .slideshow .slide.active {
+            display: block;
+        }
+
+    .slideshow .interval {
+        display: none;
+    }
+
+
+    .slideshow .toolbar {
+        float: right;
+    }
+
+.clear {
+    clear: both;
+}
+
+.slideshow .slide.show {
+    display: block;
+}
+
+
+
+/* Theme ----------------------------------------------------- */
+
+.slideshow {
+    border: solid 2px #EEEEEE;
+}
+
+    .slideshow .slide {
+        padding: 3px;
+        height: 300px;
+    }
+
+    .slideshow .toolbar {
+        padding-right: 5px;
+        clear: both;
+    }
+
+
+        .slideshow .toolbar > a {
+            padding-left: 2px;
+            padding-right: 2px;
+        }
